@@ -1,0 +1,8 @@
+<div ng-controller="MainController">
+    <select ng-model="item"
+            ng-options="item.id as item.label for item in items"
+            options-disabled="item.id==2 for item in items">
+        <option value="">----</option>
+    </select>
+    <p>{{item}}</p>
+</div>

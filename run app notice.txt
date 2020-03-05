@@ -1,0 +1,1 @@
+se placer dans le répertoire racine du projet et lancer en cmd : node scripts/web-server.js
